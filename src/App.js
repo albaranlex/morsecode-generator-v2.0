@@ -28,7 +28,7 @@ function App() {
           ></textarea>
         </div>
         <div className="button-container">
-          <button onClick={changeHandle}>Reset</button>
+          <button onClick={changeHandle}>RESET</button>
         </div>
         <div className="morse-container">
           <div className="results">
