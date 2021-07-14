@@ -55,7 +55,7 @@ const code = {
   "@": ".__._.",
 };
 
-const MorseGenerator = (props) => {
+const CodeGenerator = (props) => {
   let text = props.userInput.toLowerCase().split("");
   let result;
   if (!text.length == 0) {

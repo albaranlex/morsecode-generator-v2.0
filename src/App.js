@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
+import CodeGenerator from "./components/CodeGenerator";
 import Footer from "./components/Footer";
+
 function App() {
+  const [userInput, setUserInput] = useState("");
+  function changeHandle(e) {
+    setUserInput(e.target.value);
+  }
+
   return (
     <div className="App">
       <Header />
-      <Footer />
+      <div className="code-generator">
+        <div className="input-container">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            maxLength="40"
+            placeholder="Enter your Text"
+            value={userInput}
+            onChange={changeHandle}
+          ></textarea>
+        </div>
+        <div className="button-container">
+          <button onClick={changeHandle}>Reset</button>
+        </div>
+        <div className="morse-container">
+          <div className="results">
+            <CodeGenerator userInput={userInput} />
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }
