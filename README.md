@@ -6,7 +6,7 @@
 
 ## Project Summary
 
-- The project utilizes React JS, which includes, but not limited to, components, props and states. The website layout was done with SCSS.
+- The project utilizes React JS, which includes, but not limited to, components, events and states. The website layout was done with SCSS.
 - The layout is pure CSS. No vectors or SVGs were added. Shapes were made from scratch.
 - The website is responsive, made possible with the use of `flexbox`.
 
