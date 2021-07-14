@@ -1,0 +1,10 @@
+.footer {
+  @include flex-center;
+  flex-direction: column;
+  height: 30%;
+  width: 100%;
+  text-align: left;
+  color: $main-text;
+  font-size: 12px;
+  line-height: 30px;
+}

@@ -1,0 +1,52 @@
+.code-generator {
+  @include flex-center;
+  @include max(756px) {
+    flex-direction: column;
+  }
+  height: 30%;
+  width: 100%;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $primary;
+  height: 20px;
+  width: 250px;
+  margin: 20px;
+  padding-bottom: 32px;
+  overflow: hidden;
+  font-family: Avenir;
+  font-size: 13px;
+  &:focus {
+    outline: none;
+  }
+  color: $main-text;
+  resize: none;
+}
+
+.results {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $primary;
+  height: 20px;
+  width: 250px;
+  margin: 20px;
+  padding-bottom: 32px;
+  color: $sub-text;
+  font-size: 13px;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+
+button {
+  @include max(756px) {
+    margin: 20px;
+  }
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid $primary;
+  color: $primary;
+  margin-top: 180px;
+}
