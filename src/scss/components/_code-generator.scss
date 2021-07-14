@@ -11,7 +11,7 @@
   z-index: 2;
   background: white;
   width: 50vw;
-  height: 50%;
+  height: 45%;
   border-radius: 50px;
   position: absolute;
   top: 0;
@@ -55,10 +55,20 @@
   z-index: 0;
   height: 33vh;
   width: 100vw;
+  background-image: linear-gradient($primary, $sub-bg);
+}
+
+.morse-wrapper {
+  height: 33vh;
+  width: 100vw;
   text-align: left;
-  background: red;
-  border-radius: 20px;
+  background: $primary;
+  border-radius: 50px;
   overflow: overlay;
   overflow-wrap: break-word;
   padding: 20px;
+}
+
+.results {
+  z-index: 4;
 }

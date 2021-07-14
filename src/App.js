@@ -32,8 +32,10 @@ function App() {
           </div>
         </div>
         <div className="morse-container">
-          <div className="results">
-            <CodeGenerator userInput={userInput} />
+          <div className="morse-wrapper">
+            <div className="results">
+              <CodeGenerator userInput={userInput} />
+            </div>
           </div>
         </div>
       </div>
