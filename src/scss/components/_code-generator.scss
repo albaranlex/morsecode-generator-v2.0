@@ -11,8 +11,8 @@
   z-index: 2;
   background: white;
   width: 50vw;
-  height: 45%;
-  border-radius: 50px;
+  height: 50%;
+  border-radius: 30px;
   position: absolute;
   top: 0;
 }
@@ -28,6 +28,21 @@
 .input-container {
   z-index: 4;
   height: 33vh;
+  textarea {
+    border: none;
+    height: 33vh;
+    width: 100vw;
+    text-align: left;
+    border-radius: 50px;
+    overflow: overlay;
+    overflow-wrap: break-word;
+    padding: 20px;
+    font-family: Avenir;
+    resize: none;
+    &:focus {
+      outline: none;
+    }
+  }
 }
 
 .button-container {
@@ -63,7 +78,7 @@
   width: 100vw;
   text-align: left;
   background: $primary;
-  border-radius: 50px;
+  border-radius: 30px;
   overflow: overlay;
   overflow-wrap: break-word;
   padding: 20px;

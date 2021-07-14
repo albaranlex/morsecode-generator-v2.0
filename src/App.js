@@ -24,6 +24,7 @@ function App() {
             placeholder="Enter your Text"
             value={userInput}
             onChange={changeHandle}
+            autoFocus
           ></textarea>
         </div>
         <div className="button-container">
