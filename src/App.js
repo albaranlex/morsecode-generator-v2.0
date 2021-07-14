@@ -21,14 +21,15 @@ function App() {
             id=""
             cols="30"
             rows="10"
-            maxLength="40"
             placeholder="Enter your Text"
             value={userInput}
             onChange={changeHandle}
           ></textarea>
         </div>
         <div className="button-container">
-          <button onClick={changeHandle}>RESET</button>
+          <div className="button-wrapper">
+            <button onClick={changeHandle}>RESET</button>
+          </div>
         </div>
         <div className="morse-container">
           <div className="results">
