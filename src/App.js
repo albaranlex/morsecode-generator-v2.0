@@ -13,6 +13,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="code-generator">
+        <div className="left-box-bg"></div>
+        <div className="right-box-bg"></div>
         <div className="input-container">
           <textarea
             name=""
