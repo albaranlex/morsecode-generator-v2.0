@@ -1,7 +1,10 @@
 .footer {
+  @include flex-center;
   width: 100vw;
   height: 10vh;
   text-align: center;
   z-index: 0;
   background: $sub-bg;
+  color: white;
+  font-size: 10px;
 }
