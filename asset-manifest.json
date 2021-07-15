@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/morsecode-generator-v2.0/static/css/main.f3170361.chunk.css",
+    "main.css": "/morsecode-generator-v2.0/static/css/main.8de5b4a0.chunk.css",
     "main.js": "/morsecode-generator-v2.0/static/js/main.f0d3e015.chunk.js",
     "main.js.map": "/morsecode-generator-v2.0/static/js/main.f0d3e015.chunk.js.map",
     "runtime-main.js": "/morsecode-generator-v2.0/static/js/runtime-main.4746b130.js",
@@ -8,13 +8,13 @@
     "static/js/2.056cbc9d.chunk.js": "/morsecode-generator-v2.0/static/js/2.056cbc9d.chunk.js",
     "static/js/2.056cbc9d.chunk.js.map": "/morsecode-generator-v2.0/static/js/2.056cbc9d.chunk.js.map",
     "index.html": "/morsecode-generator-v2.0/index.html",
-    "static/css/main.f3170361.chunk.css.map": "/morsecode-generator-v2.0/static/css/main.f3170361.chunk.css.map",
+    "static/css/main.8de5b4a0.chunk.css.map": "/morsecode-generator-v2.0/static/css/main.8de5b4a0.chunk.css.map",
     "static/js/2.056cbc9d.chunk.js.LICENSE.txt": "/morsecode-generator-v2.0/static/js/2.056cbc9d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4746b130.js",
     "static/js/2.056cbc9d.chunk.js",
-    "static/css/main.f3170361.chunk.css",
+    "static/css/main.8de5b4a0.chunk.css",
     "static/js/main.f0d3e015.chunk.js"
   ]
 }
